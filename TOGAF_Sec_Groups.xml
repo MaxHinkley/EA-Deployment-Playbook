@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<!-- Copyright 2026, Max A. Hinkley -->
+<!-- An example developed for readers of the EA Deployment Playbook -->
+<RefData version="1.0" exporter="EA.25">
+	<DataSet name="Groups" table="t_secgroup" filter="GroupID='#GroupID#'">
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="GroupName" value="Administrators"/>
+			<Column name="Description" value="System Administrators"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="GroupName" value="Admin"/>
+			<Column name="Description" value="Capability Group: Restricted Permissions for model administration"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="GroupName" value="Architect"/>
+			<Column name="Description" value="Capability Group:  architect (Enterprise, Domain, Solution) defining and maintaining architecture"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="GroupName" value="Analyst"/>
+			<Column name="Description" value="Capability Group: business and information modeling"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="GroupName" value="Engineer"/>
+			<Column name="Description" value="Capability Group: technical modeling and automation; owns VC, transforms, and scripts"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="GroupName" value="Developer"/>
+			<Column name="Description" value="Capability Group: feature/test&#x2011;focused modeling and (optionally) code generation"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="GroupName" value="Portfolio"/>
+			<Column name="Description" value="Capability Group: portfolio/program/project management—roadmaps, work packages, migration projects"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="GroupName" value="ViewOnly"/>
+			<Column name="Description" value="Capability Group: pure read&#x2011;only access for stakeholders and reviewers"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="GroupName" value="SUPERVISOR"/>
+			<Column name="Description" value="Qualifier Group:  Not to be used alone.  “Lead” overlay that adds selected higher&#x2011;impact capabilities to less enabled groups.  "/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{55879CD2-361F-49ee-B0F7-69F7DCCDAEE1}"/>
+			<Column name="GroupName" value="_systems"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{DEFEAACF-4D4F-4070-94FF-A4263EBB62DF}"/>
+			<Column name="GroupName" value="_software"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{DA5E1CF4-EBF2-49c3-80CA-3A31013EE1BA}"/>
+			<Column name="GroupName" value="_verification"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{6E903455-B96A-475a-9A28-AC11B484CAE4}"/>
+			<Column name="GroupName" value="_qa"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{2D0C7D62-A7C3-4b17-90D4-51D9EE67BF01}"/>
+			<Column name="GroupName" value="_program"/>
+			<Column name="Description" value="Scope label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{21A1876A-133A-4e76-907F-7F117A6107AB}"/>
+			<Column name="GroupName" value="_project"/>
+			<Column name="Description" value="Scope label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{047FC9EA-E8C3-446b-A766-1F247FC77B2A}"/>
+			<Column name="GroupName" value="_config"/>
+			<Column name="Description" value="Special label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{42586F5A-50E9-4426-90E2-EE8A59AD0F8D}"/>
+			<Column name="GroupName" value="_ai_assist"/>
+			<Column name="Description" value="Special label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="GroupName" value="JUNIOR"/>
+			<Column name="Description" value="Qualifier Group:  Not to be used alone.  safety restrictions qualifier for onboarding and probation."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="GroupName" value="Governance"/>
+			<Column name="Description" value="Capability Group: governance and standards content—principles, standards, decision logs, waivers"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="GroupName" value="Librarian"/>
+			<Column name="Description" value="Capability Group: curates reference models and document/report templates"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{E4C1D879-CFF5-4503-83F0-89F557261DE3}"/>
+			<Column name="GroupName" value="_business"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{E5AE3F20-8B2A-440d-956F-8C82D3641775}"/>
+			<Column name="GroupName" value="_data"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{3F315146-CDDF-4e22-97C4-C4A78EF81A20}"/>
+			<Column name="GroupName" value="_application"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{F48F2B21-EBDF-4b4b-AF06-93CA69471650}"/>
+			<Column name="GroupName" value="_technology"/>
+			<Column name="Description" value="Domain label for group access or locks - No permissions."/>
+		</DataRow>
+	</DataSet>
+	<DataSet name="Group Permission" table="t_secgrouppermission" filter="GroupID='#GroupID#' and PermissionID=#PermissionID#">
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="0"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="1"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="5"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="6"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="8"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="12"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="16"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="17"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="18"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="19"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="20"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="21"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="22"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="24"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="28"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="29"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="30"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="32"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="34"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="35"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="37"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="38"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="39"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="40"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="41"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="42"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{AE49047B-F145-4035-BB89-192325C8BC4C}"/>
+			<Column name="PermissionID" value="43"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="43"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="42"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="41"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="40"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="39"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="38"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="37"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="34"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="30"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="29"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="28"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="24"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="20"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="19"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="18"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="17"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="16"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="8"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="6"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="5"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="1"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="42"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="41"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="40"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="39"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="37"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="35"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="34"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="32"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="29"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="24"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="22"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="21"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="20"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="19"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="18"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="17"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="12"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="6"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{5A4B21BD-D510-44d2-B66F-8321E11424B9}"/>
+			<Column name="PermissionID" value="1"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{94F9CAC0-C9F0-43f3-9E96-0BFB66076E53}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="32"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="29"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="21"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="17"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="12"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="21"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{A58ADA2F-508B-425f-8948-4D1D25016547}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="37"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="34"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="8"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="1"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-5"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-6"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-8"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{CEF200C9-2005-4414-BC30-BED7EECA19F8}"/>
+			<Column name="PermissionID" value="-11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="41"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="40"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="35"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="34"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="24"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="20"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="17"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="6"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="1"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="PermissionID" value="-2"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="PermissionID" value="-4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="PermissionID" value="-3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="PermissionID" value="-8"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44F24374-0A07-4628-9E09-D4D4D2764852}"/>
+			<Column name="PermissionID" value="-10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="37"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="29"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="40"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{D9549741-2570-4f7e-A750-A2A498634810}"/>
+			<Column name="PermissionID" value="39"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{44E0B773-82B4-4777-81DA-421B7369F950}"/>
+			<Column name="PermissionID" value="0"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="31"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{833FFE38-39EB-4cb3-A14D-687EBE4D06B6}"/>
+			<Column name="PermissionID" value="3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="14"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="13"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{766FF7DD-2A7C-408b-A27F-AACAD7D84608}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="36"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="33"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="27"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="26"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="25"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="23"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="20"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="16"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="15"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="12"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="11"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="10"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="7"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="4"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{9F3FFEC3-007A-4a9b-997A-8DDDF1761D32}"/>
+			<Column name="PermissionID" value="3"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="39"/>
+		</DataRow>
+		<DataRow>
+			<Column name="GroupID" value="{0DDD141D-285C-4fb2-98DF-D38D12E5DB9C}"/>
+			<Column name="PermissionID" value="9"/>
+		</DataRow>
+	</DataSet>
+</RefData>
