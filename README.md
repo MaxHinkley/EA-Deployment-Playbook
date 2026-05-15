@@ -12,5 +12,6 @@ The book is available through the following outlets:
 
 The files in this repository may be used as is, or may provide a starting point for your project team.
 
-2 different security models;
-1 pre-built repository tree
+TOGAF_Sec_Groups.xml - A set of security groups for a TOGAF-style project.  Described in EA Deployment Playbook - Appendix B
+Embedded_Sec_Groups.xml - A set of security groups for a typical Embedded Project.  Described in EA Deployment Playbook - Appendix A
+Project Skeleton.xml - A relatively full-featured outline structure for a project; the "What I do" example from EA Deployment Playbook chapter 11.
